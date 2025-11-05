@@ -1,0 +1,9 @@
+allowed-worlds:
+  - world
+  - world_nether
+  - world_the_end
+
+decay-time-seconds: 60
+
+check-interval-ticks: 20
+

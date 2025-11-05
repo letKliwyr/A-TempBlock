@@ -1,0 +1,19 @@
+name: TemporaryBlocks
+main: id.kliwyr.TemporaryBlocks
+version: ${version}
+api-version: '1.21'
+depend: [GriefPrevention, WorldGuard]
+author: kliwyr
+description: Allows temporary block placement outside claims
+
+commands:
+  tempblocks:
+    description: Manage TemporaryBlocks plugin
+    usage: /tempblocks <reload|info>
+    permission: tempblocks.admin
+    aliases: [tb]
+
+permissions:
+  tempblocks.admin:
+    description: Access to all TemporaryBlocks commands
+    default: op
